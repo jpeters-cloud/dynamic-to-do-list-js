@@ -22,10 +22,10 @@
                 const li = document.createElement('li');
                 li.textContent = taskText;
 
-                // Create a new button element for removing the task
+                // Create a new button element for removing the task. Set its textContent to "Remove", and give it a class name of 'remove-btn'
                 const removeButton = document.createElement('button');
                 removeButton.textContent = 'Remove';
-                removeButton.className = 'remove-btn';
+                removeButton.classList.add('remove-btn');
                 
                 // Assign an onclick event to the remove button that removes the li element from taskList
                 removeButton.onclick = function() {
