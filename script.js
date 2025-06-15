@@ -1,4 +1,4 @@
- <script>
+<script>
         // Wait for the DOM to be fully loaded before executing the script
         document.addEventListener('DOMContentLoaded', function() {
             
